@@ -21,7 +21,7 @@ Conteudo:
 
 Francisco Cachado
 
-[![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](www.linkedin.com/in/franciscocachado)
+[![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/franciscocachado)
 
 ### **Organizador:**
 
