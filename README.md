@@ -1,4 +1,4 @@
-# Formação inicial de Python
+# Formação Python
 
 ---
 
