@@ -17,4 +17,8 @@ Conteudo:
 
 -   Finalizar kernel de um projeto
 
-![NEBM](/Apresentação/logos/Logo_NEBM_preto.png "NEBM")
+Formador:
+
+Organizador:
+NEBM
+<img src=/Apresentação/logos/Logo_NEBM_preto.png width="100" height="100">
