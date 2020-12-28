@@ -18,6 +18,26 @@ def gerador_cidades(x, y, num):
     return lista
 
 
+def criar_individuo(p, c, var, t_delta):
+    if p.comprimento() == 0:
+        cmin = c.custo()
+    elif c.custo() < p.custominimo():
+        cmin = c.custo()
+    else:
+        cmin = p.custominimo()
+
+    tm = (1 - math.log(c.conforto(var.get("w"), cmin))) * var.get("b")
+
+    tr = (
+        (1 - math.log(c.conforto(var.get("w"), cmin)))
+        * (p.comprimento() / var.get("v_max"))
+        * var.get("p")
+    )
+
+    td = (1 - math.log(1 - c.conforto(var.get("w"), cmin))) * var.get("u")
+    return Individuo(c, tm + t_delta, tr + t_delta, td + t_delta)
+
+
 if __name__ == "__main__":
     var = {
         "x_max": 20,
@@ -38,3 +58,8 @@ if __name__ == "__main__":
     x = [0, var.get("x_max")]
     y = [0, var.get("y_max")]
     p = Populacao()
+    for n_ind in range(var.get("v")):
+        lista_cidades = gerador_cidades(x, y, var.get("n"))
+        c = caminho()
+        for cidade in lista_cidades:
+            c.add(cidade)
