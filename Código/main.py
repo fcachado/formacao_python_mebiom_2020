@@ -119,6 +119,7 @@ if __name__ == "__main__":
             )
             indv.muda_caminho(c_novo)
             p.add(indv)
+
         # reprodução
         elif tipo == 2:
             n_reproducao += 1
@@ -202,3 +203,4 @@ if __name__ == "__main__":
     plt.ylabel("Custo")
     plt.title("Evolução do custo ao longo do tempo de simulação")
     plt.show()
+
