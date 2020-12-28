@@ -25,5 +25,6 @@ Conteudo:
 -   Finalizar kernel de um projeto
 
 
-
-<img src=./Apresentação/logos/Logo_NEBM_preto.png width="100" height="100">
+<p align="center">
+<img src=./Apresentação/logos/Logo_NEBM_preto.png width="300" height="300">
+</p>
